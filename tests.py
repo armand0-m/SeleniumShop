@@ -18,7 +18,7 @@ import unittest
 options = webdriver.ChromeOptions()
 options.add_argument('--start-maximized')
 options.add_argument('--disable-extensions')
-driver_path = 'C:\\Users\\j0hn\\Documents\\PythonApps\\SeleniumTcsShop\\Drivers\\chromedriver.exe'
+driver_path = 'C:\\Users\\j0hn\\Desktop\\SeleniumShop\\Drivers\\chromedriver.exe'
 driver = webdriver.Chrome(driver_path, chrome_options=options)
 #Iniciar en la pantalla 2
 driver.set_window_position(2000,0)
@@ -30,7 +30,7 @@ driver.get('http://a1a17f2828c0f4d7f83ff926804b9a74-1091942866.us-west-1.elb.ama
 #driver.get('http://localhost:4200')
 
 #Apertura a Excel
-filesheet="../excel/test.xlsx"
+filesheet="excel/test.xlsx"
 wb=load_workbook(filesheet)
 hojas= wb.get_sheet_names()
 print(hojas)
