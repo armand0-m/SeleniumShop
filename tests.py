@@ -18,7 +18,7 @@ import unittest
 options = webdriver.ChromeOptions()
 options.add_argument('--start-maximized')
 options.add_argument('--disable-extensions')
-driver_path = 'https://chromedriver.storage.googleapis.com/93.0.4577.63/chromedriver_linux64.zip'
+driver_path = '/usr/local/bin/chromedriver'
 
 driver = webdriver.Chrome(driver_path, chrome_options=options)
 #Iniciar en la pantalla 2
