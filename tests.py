@@ -18,7 +18,7 @@ import unittest
 options = webdriver.ChromeOptions()
 options.add_argument('--start-maximized')
 options.add_argument('--disable-extensions')
-driver_path = 'C:\\Users\\j0hn\\Desktop\\SeleniumShop\\Drivers\\chromedriver.exe'
+driver_path = 'https://sites.google.com/a/chromium.org/chromedriver/home/chromedriver.exe'
 driver = webdriver.Chrome(driver_path, chrome_options=options)
 #Iniciar en la pantalla 2
 driver.set_window_position(2000,0)
